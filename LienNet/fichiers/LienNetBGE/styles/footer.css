@@ -1,0 +1,263 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+/* RUPTURE THEMATIQUE TRANSPARENTE */
+
+hr{
+  border: solid 0.1em transparent;
+}
+
+
+
+
+
+
+
+/* DEBUT RETOUR HAUT DE PAGE CONTAINER*/
+
+div#sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0em;
+}
+
+div#sticky img{
+  max-width: 2em;
+  height: auto;
+  margin-left: 1380px;
+  background-color: white;
+  border: solid 0.1em #0070C0;
+  border-radius: 100%;
+}
+
+/* FIN RETOUR HAUT DE PAGE CONTAINER*/
+
+
+
+
+
+
+/* DEBUT FOOTER */
+
+/* DEBUT Pied De Page CONTAINER */
+
+#pdp {
+  background-color: #d3d3d3;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Pied De Page LINKS */
+
+#frecap > div a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* DEBUT A PROPOS CONTAINER */
+
+#apropos {
+  background-color: lightgray;
+  width: 12em;
+}
+
+#fcv {
+  text-align: center;
+  line-height: 2em;
+  color: #0070C0;
+  font-weight: 400;
+  width: 11em;
+  margin: 3em 0.6em 0em;
+}
+
+#fcv img {
+  width: 11em;
+}
+
+
+/* DEBUT A PROPOS CONTAINER */
+
+
+
+/* DEBUT CONTACT/COORDONNEES CONTAINER */
+
+#fcontact {
+  width: 28em;
+  height: 28em;
+  color: white;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+#fcontact a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* DEBUT TITRE */
+
+#fcontact > h2 {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/* FIN TITRE */
+
+
+
+/* DEBUT MAIL */
+
+#fmail {
+  font-size: 1.2em;
+  padding: 0.6em 0em 0.6em 1em;
+}
+
+/* FIN MAIL */
+
+
+
+/* DEBUT TEL */
+
+#ftel {
+  font-size: 1.2em;
+  padding: 0.6em 0em 0em 1em;
+}
+
+/* FIN TEL */
+
+
+
+/* DEBUT HORAIRES */
+
+#fhoraires {
+  font-size: 1.2em;
+  padding-left: 1em;
+}
+
+/* FIN HORAIRES */
+
+
+
+
+
+
+/* DEBUT PLAN CONTAINER */
+
+#fplan img {
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+}
+
+/* FIN PLAN CONTAINER */
+
+
+
+
+
+
+/* DEBUT SOUS PLAN CONTAINER */
+
+#fsousplan {
+  height: 9em;
+  margin: 0.1em 1em 0.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* DEBUT ADRESSE CONTAINER */
+
+#fcontact #fsousplan > address {
+  font-size: 0.72em;
+}
+
+/* FIN ADRESSE CONTAINER */
+
+
+
+/* DEBUT RESEAUX SOCIAUX CONTAINER */
+
+#frs {
+  width: 1em;
+  height: 3em;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FIN RESEAUX SOCIAUX CONTAINER */
+
+/* FIN SOUS PLAN CONTAINER */
+
+/* FIN CONTACT/COORDONNEES CONTAINER */
+
+
+
+
+
+
+/* DEBUT RECAPITULATIF CONTAINER*/
+
+#frecap {
+  width: 48.5em;
+  padding: 0em 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#frecap > div {
+  height: 15em;
+}
+
+#fcontenu {
+  width: 11em;
+  padding-left: 1em;
+}
+
+#fservices {
+  width: 11em;
+}
+
+#flegal {
+  width: 9em;
+}
+
+/* FIN RECAPITULATIF CONTAINER*/
+
+
+
+
+
+
+/* DEBUT COPYRIGHT CONTAINER*/
+
+#fcopyright{
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  height: 3em;
+  padding-top: 0.9em;
+}
+
+/* FIN COPYRIGHT CONTAINER*/
+
+/* FIN FOOTER */
+
+

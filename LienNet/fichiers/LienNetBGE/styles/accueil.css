@@ -1,0 +1,102 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+/************************************** DEBUT HEADBAR **************************************/
+
+
+
+/* DEBUT NAVIGATION */
+
+#accueil a{
+  color: #0070C0;
+}
+
+#accueil:hover{
+  border-bottom: solid 0.1em transparent;
+}
+
+/* (ACCUEIL + SERVICES + PORTFOLIO + BLOG) HOVER */
+
+#services:hover, #portfolio:hover, #blog:hover {
+  border-bottom: solid 0.1em #0070C0;
+}
+
+
+
+/* FIN NAVIGATION */
+
+
+
+/************************************** FIN HEADBAR **************************************/
+
+
+
+
+
+
+
+
+
+/************************************** DEBUT PAGE ACCUEIL **************************************/
+
+
+
+/* DEBUT ACCROCHE CONTAINER*/
+
+#aaccroche {
+  margin-top: 9.6em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/* DEBUT IMAGE CONTAINER */
+
+#abandeau {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#aimage {
+  width: 36em;
+  height: 24em;
+  display: block;
+}
+
+#aimage img {
+  width: 100%;
+  height: 100%;
+}
+
+/* FIN IMAGE CONTAINER */
+
+
+
+/* DEBUT TITRE CONTAINER */
+
+h1 .ln{
+  color: #0070C0; 
+  font-family: Verdana Pro Black;
+}
+
+/* FIN TITRE CONTAINER */
+
+/* FIN ACCROCHE CONTAINER */
+
+
+
+/* DEBUT MARKETING CONTAINER */
+/* FIN MARKETING CONTAINER */
+
+
+
+/* ||||||||||||||||||||||||||||||| FIN  PAGE CONTAINER ||||||||||||||||||||||||||||||| */
+
+

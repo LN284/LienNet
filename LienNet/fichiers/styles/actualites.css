@@ -1,0 +1,426 @@
+
+
+
+/* ************************************************************************************ */
+/* ********************************* DEBUT ACTUALITES ********************************* */
+/* ************************************************************************************ */
+
+
+
+  /* ********************************************************************** */
+  /* ************************* DEBUT INTRODUCTION ************************* */
+  /* ********************************************************************** */
+
+
+
+    #actualitesIntro {
+
+      display: grid;
+
+
+      grid-template-columns: 53% 44%;
+
+
+      grid-template-rows: auto;
+
+
+      height: auto;
+
+      width: auto;
+
+
+      background-color: white;
+
+
+      margin: 0vw 3vw 6vw;
+
+
+      justify-content: space-between;
+
+      align-items: start;
+
+
+      /* border: solid 0.3vw black; */
+
+    }
+
+
+
+    #actualitesIntroTexte {
+
+      display: block;
+
+      justify-content: space-between;
+
+      align-items: start;
+
+      align-content:center;
+
+
+      /* border: solid 0.3vw greenyellow; */
+
+    }
+
+
+
+    
+
+
+
+    /* **************************************************** */
+    /* ******************* DEBUT ITEM 1 ******************* */
+    /* **************************************************** */
+
+      h2#actualitesIntroTexte1 { 
+
+        font-family: Verdana Pro Semibold, Geneva, Tahoma, sans-serif; 
+
+        font-size: 1.3vw;
+
+        color: var(--rouille);
+
+
+        text-align: left;
+
+        align-content: start;
+
+
+        padding-top: 16vw;
+
+
+        /* border: solid 0.3vw red; */
+
+      }
+
+    /* /////////////////////////////////////////////////// */
+    /* //////////////////// FIN ITEM 1 /////////////////// */
+    /* /////////////////////////////////////////////////// */
+
+
+
+    /* **************************************************** */
+    /* ******************* DEBUT ITEM 2 ******************* */
+    /* **************************************************** */
+
+      h1#actualitesIntroTexte2 {
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        font-size: 3.6vw;
+
+        line-height: 5.4vw;
+
+
+        text-align: left;
+
+        align-content: start;
+
+
+        padding-top: 1.2vw;
+
+
+        /* border: solid 0.3vw black; */
+
+      }
+
+      h1#actualitesIntroTexte2 img {
+
+        height: 2.8vw;
+
+        width: auto;
+
+      }
+
+    /* /////////////////////////////////////////////////// */
+    /* //////////////////// FIN ITEM 2 /////////////////// */
+    /* /////////////////////////////////////////////////// */
+
+
+
+
+    
+
+
+
+    /* **************************************************** */
+    /* ******************* DEBUT IMAGES ******************* */
+    /* **************************************************** */
+
+      #actualitesIntroImage {
+
+        height: auto;
+
+        width:auto;
+
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        align-content:center;
+
+
+        /* border: solid 0.3vw greenyellow; */
+
+      }
+
+
+
+
+      #actualitesIntroImage img {
+
+        height: auto;
+
+        width: 40.6vw;
+
+        /* border: solid 0.1vw lightslategray; */
+
+      }
+
+
+    /* /////////////////////////////////////////////////// */
+    /* //////////////////// FIN IMAGES /////////////////// */
+    /* /////////////////////////////////////////////////// */
+
+  /* ////////////////////////////////////////////////////////////////////// */
+  /* ////////////////////////// FIN INTRODUCTION ////////////////////////// */
+  /* ////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ******************************************************************** */
+  /* *************************** DEBUT OFFRES *************************** */
+  /* ******************************************************************** */
+
+    #actualitesOffres {
+
+      height: 180vw;
+
+      width: 100%;
+
+
+      padding: 0vw 3vw;
+
+
+      margin-bottom: -7.6vw;
+
+      display: flex;
+
+      flex-direction: column;
+
+      justify-content: space-evenly;
+
+      align-items: center;
+      
+
+      background-color: var(--black);
+
+      /* background-image: 
+      
+      linear-gradient(#424D4E, #212129); */
+
+    }
+
+
+
+
+    #actualitesOffres article {
+
+      height: auto;
+
+      width: 100%;
+
+
+      display: flex;
+
+      flex-direction: row;
+
+      justify-content: start;
+
+      align-items: center;
+
+
+      border: solid 0.3vw whitesmoke;
+
+    }
+
+
+
+    #actualitesOffres h3 {
+
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+      font-size: 1.8vw;
+
+      color: rgb(235, 231, 231);
+
+
+      border: solid 0.3vw red;
+
+    }
+
+
+
+    #actualitesOffres p {
+
+      color: white;
+
+
+      height: auto;
+
+      width: auto;
+
+
+      border: solid 0.3vw red;
+
+    }
+
+
+
+    /* ***************************************************** */
+    /* ******************* DEBUT OFFRE 1 ******************* */
+    /* ***************************************************** */
+
+      #actualitesOffre1Titre {
+
+        height: auto;
+
+        width: 40.4vw;
+
+
+        padding: 3vw;
+
+
+        border: solid 0.3vw var(--green);
+        
+      }
+
+
+
+      #actualitesOffre1Texte {
+
+        height: 42vw;
+
+        width: 52vw;
+
+
+        padding: 3vw;
+
+
+        background-color: var(--or);
+
+      }
+
+
+
+    /* //////////////////////////////////////////////////// */
+    /* //////////////////// FIN OFFRE 1 /////////////////// */
+    /* //////////////////////////////////////////////////// */    
+
+
+
+
+    /* ***************************************************** */
+    /* ******************* DEBUT OFFRE 2 ******************* */
+    /* ***************************************************** */
+
+      #actualitessOffre2Titre {
+
+        height: auto;
+
+        width: 40.4vw;
+
+
+        padding: 3vw;
+
+
+        border: solid 0.3vw var(--green);
+
+      }
+
+
+
+      #actualitesOffre2Texte {
+
+        height: 42vw;
+
+        width: 52vw;
+
+
+        padding: 3vw;
+
+
+        background-color: var(--or);
+
+      }
+
+
+    /* //////////////////////////////////////////////////// */
+    /* //////////////////// FIN OFFRE 2 /////////////////// */
+    /* //////////////////////////////////////////////////// */ 
+    
+    
+
+
+    /* ***************************************************** */
+    /* ******************* DEBUT OFFRE 3 ******************* */
+    /* ***************************************************** */
+
+      #actualitesOffre3Titre {
+
+        height: auto;
+
+        width: 40.4vw;
+
+
+        padding: 3vw;
+
+
+        border: solid 0.3vw var(--green);
+
+      }
+
+
+
+      #actualitesOffre3Texte {
+
+        height: 42vw;
+
+        width: 52vw;
+
+
+        padding: 3vw;
+
+
+        background-color: var(--or);
+
+      }
+
+
+
+    /* //////////////////////////////////////////////////// */
+    /* //////////////////// FIN OFFRE 3 /////////////////// */
+    /* //////////////////////////////////////////////////// */       
+
+  /* //////////////////////////////////////////////////////////////////// */
+  /* //////////////////////////// FIN OFFRES //////////////////////////// */
+  /* //////////////////////////////////////////////////////////////////// */
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////// FIN ACUTALITES ///////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+

@@ -1,0 +1,311 @@
+
+
+
+/************************************** DEBUT HEADBAR **************************************/
+
+
+
+/* DEBUT NAVIGATION */
+
+#services a{
+  color: #0070C0;
+}
+
+#services:hover{
+  border-bottom: solid 0.1em transparent;
+}
+
+#accueil:hover, #portfolio:hover, #blog:hover {
+  border-bottom: solid 0.1em #0070C0;
+}
+
+/* FIN NAVIGATION */
+
+
+
+/* ||||||||||||||||||||||||||||||||||||| FIN HEADBAR ||||||||||||||||||||||||||||||||||||| */
+
+
+
+body {
+  background-color: rgba(250, 250, 210, 0.3);
+}
+
+
+
+
+
+
+/*********************************** DEBUT PAGE SERVICES ***********************************/
+
+/* DEBUT ACCROCHE CONTAINER*/
+
+h1{
+  margin-top: 3em;
+}
+
+/* FIN ACCROCHE CONTAINER */
+
+
+
+h2 {
+  text-align: center;
+}
+
+
+
+/* DEBUT PRESENTATION CONTAINER */
+#spresentation {
+  width: 100%;
+  height: 33em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sp1 {
+  width: 33em;
+  height: auto;
+  padding: 1em 3em;
+  border-radius: 1em;
+  background-color: #0070C0;
+  color: white;
+}
+
+#ln {
+  color: white;
+}
+
+#sp1 h2 {
+  font-size: 1.6em;
+  padding-bottom: 0.6em;
+}
+
+#sp1 > p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#sp2 {
+  width: 26em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sp2 img {
+  width: 24em;
+  height: 6em;
+}
+
+/* FIN PRESENTATION CONTAINER */
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 2em 0em 0em 0em;
+  padding: 0em;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+
+
+/* DEBUT VITRINE CONTAINER*/
+
+#svitrine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6em 0em 0em 0em;
+  padding: 4.2em;
+  background-color: #C04F15;
+}
+
+#svitrine > h2, #sovitrine > h3 {
+  text-align: center;
+}
+
+#svitrine .soffre {
+  background-color: white;
+  border-radius: 1em;
+  padding: 2em 2em 1em;
+  width: 30em;
+  height: 33em;
+}
+
+#sovitrine {
+  width: 24em;
+  height: 12em;
+  background-color: white;
+  border-radius: 1em;
+  padding-top: 2.6em;
+}
+
+#sovitrine > p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* FIN VITRINE CONTAINER*/
+
+
+
+
+
+
+/* DEBUT DYNAMIQUE CONTAINER*/
+
+#sdynamique {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6em 0em 0em 0em;
+  padding: 4.2em;
+  background-color: #196B24;
+}
+
+#sdynamique > h2, #sodynamique > h3 {
+  text-align: center;
+}
+
+#sdynamique .soffre {
+  background-color: white;
+  border-radius: 1em;
+  padding: 2em 2em 1em;
+  width: 30em;
+  height: 33em;
+}
+
+#sdiv {
+  margin: 2em 0em 0em 0em;
+  padding: 0em;
+}
+
+#sdiv li {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+#sdiv a {
+  text-decoration: none;
+  color: #C04F15;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+#sodynamique {
+  width: 24em;
+  height: 12em;
+  background-color: white;
+  border-radius: 1em;
+  padding-top: 2.6em;
+}
+
+#sodynamique > p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* FIN DYNAMIQUE CONTAINER*/
+
+
+
+
+
+
+/* DEBUT E-COMMERCE CONTAINER*/
+
+#secommerce {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 6em 0em 12em 0em;
+  padding: 4.2em;
+  background-color: #A02B93;
+}
+
+#secommerce > h2, #soecommerce > h3 {
+  text-align: center;
+}
+
+#secommerce .soffre {
+  background-color: white;
+  border-radius: 1em;
+  padding: 2em 2em 1em;
+  width: 30em;
+  height: 33em;
+}
+
+#seid {
+  margin: 2em 0em 0em 0em;
+  padding: 0em;
+}
+
+#seid li {
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+#seid a {
+  text-decoration: none;
+  color: #196B24;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#seiv {
+  margin: 0em;
+  padding: 0em;
+}
+
+#seiv li {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+#seiv a {
+  text-decoration: none;
+  color: #C04F15;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#soecommerce {
+  width: 24em;
+  height: 12em;
+  background-color: white;
+  border-radius: 1em;
+  padding-top: 2.6em;
+}
+
+#soecommerce > p {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+/* FIN E-COMMERCE CONTAINER*/
+
+/* FIN PAGE CONTACT CONTAINER */
+
+
+
+/* |||||||||||||||||||||||||||||||||| FIN PAGE SERVICES |||||||||||||||||||||||||||||||||| */
+
+

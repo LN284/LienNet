@@ -1,0 +1,128 @@
+
+
+
+<!-- 
+    You can change an image on hover using CSS by utilizing the `:hover` pseudo-class. 
+    Here are a couple of methods to achieve this: 
+-->
+
+<!-- 
+    ### Method 1: Using the `background-image` Property
+    This method involves changing the background image of an element 
+    when the user hovers over it. 
+-->
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Image Hover Example</title>
+      <link 
+          
+          rel="icon" 
+          
+          type="image/x-icon" 
+          
+          href="../icones/favicon.png">
+      
+      <style>
+
+          .image-hover {
+
+              width: 300px;
+              height: 200px;
+
+              background-image: url('image1.jpg');
+              background-size: cover;
+
+              transition: background-image 0.3s ease-in-out;
+
+          }
+          .image-hover:hover {
+              background-image: url('image2.jpg');
+          }
+
+      </style>
+
+  </head>
+
+  <body>
+      <div class="image-hover"></div>
+  </body>
+
+</html>
+
+
+<!-- 
+    ### Method 2: Using the `display` Property
+    This method involves swapping between two images by toggling their display properties. 
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Hover Example</title>
+
+        <style>
+            
+            .image-container {
+                position: relative;
+                width: 300px;
+                height: 200px;
+            }
+            .image-container img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transition: opacity 0.3s ease-in-out;
+            }
+            .image-container img.hover {
+                opacity: 0;
+            }
+            .image-container:hover img.hover {
+                opacity: 1;
+            }
+            .image-container:hover img.default {
+                opacity: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <div class="image-container">
+        <img src="image1.jpg" class="default" alt="Default Image">
+        <img src="image2.jpg" class="hover" alt="Hover Image">
+    </div>
+
+    </body>
+
+</html>
+
+
+
+<!-- These methods will help you create engaging and interactive visuals on your webpage¹². 
+If you need more detailed examples or further assistance, feel free to ask! -->
+
+<!-- Source : conversation avec Copilot, 10/11/2024
+(1) How To Create Image Hover Overlay Effects - W3Schools. 
+https://www.w3schools.com/howto/howto_css_image_overlay.asp.
+(2) Change Image on Hover with HTML and CSS | Cloudinary.
+ https://cloudinary.com/guides/front-end-development/change-image-on-hover-with-html-and-css.
+(3) How to change image on hover with CSS - Tutorial Republic. 
+https://www.tutorialrepublic.com/faq/how-to-change-image-on-hover-with-css.php.
+(4) 10 CSS Image Hover Effects - ForFrontend. 
+https://forfrontend.com/css-image-hover-effects/.
+(5) github.com. 
+https://github.com/EleanorEllingson/web-dev/tree/b2f2a382e77a20fd6895677c8b8f402ac4bae352/
+7-bank-project%2F1-template-route%2Ftranslations%2FREADME.ko.md. -->

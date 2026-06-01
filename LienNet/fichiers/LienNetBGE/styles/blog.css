@@ -1,0 +1,121 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+/************************************** DEBUT HEADBAR **************************************/
+
+
+
+/* DEBUT NAVIGATION */
+#blog a{
+  color: #0070C0;
+}
+
+#blog:hover{
+  border-bottom: solid 0.1em transparent;
+}
+
+#accueil:hover, #services:hover, #portfolio:hover {
+  border-bottom: solid 0.1em #0070C0;
+}
+/* FIN NAVIGATION */
+
+
+
+/* ||||||||||||||||||||||||||||||||||||| FIN HEADBAR ||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+body {
+  background-image: url('../assets/images/binaire.jpg');
+  background-repeat: repeat;
+}
+
+
+
+
+
+
+
+/************************************** DEBUT PAGE BLOG **************************************/
+
+
+/* DEBUT ACCROCHE CONTAINER */
+h1 {
+  margin-top: 1.6em;
+  color: white;
+}
+
+#accroche {
+  width: 100%;
+  margin-top: 9em;
+  
+}
+
+#accroche img {
+  display: block;
+  width: 42em;
+  margin: auto;
+  border-radius: 100%;
+}
+/* FIN ACCROCHE CONTAINER */
+
+
+
+
+
+
+/* DEBUT BLOG CONTAINER */
+#bblog {
+  height: 120em;
+  margin-top: 9em;
+  padding: 3em 3em;
+}
+
+#bblog > article {
+
+
+  border-radius: 100%;
+}
+
+#bblog > article img {
+  width: 24em;
+  height: 24em;
+}
+
+#bblog a {
+  text-decoration: none;
+  color: #0070C0;
+}
+
+#bblog > #slideInElement1 {
+  margin: 6em 0em 6em 6em;
+}
+
+
+
+#bblog > #slideInElement2 {
+  margin: 0em 0em 0em 52em;
+}
+
+#bblog a {
+  text-decoration: none;
+  color: #0070C0;
+}
+
+/* FIN BLOG CONTAINER */
+
+
+
+
+
+
+/* ||||||||||||||||||||||||||||||||||||| FIN PAGE BLOG ||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+

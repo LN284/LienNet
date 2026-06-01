@@ -1,0 +1,140 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+/************************************** DEBUT HEADBAR **************************************/
+
+
+
+/* DEBUT NAVIGATION */
+
+#portfolio a{
+  color: #0070C0;
+}
+
+#portfolio:hover{
+  border-bottom: solid 0.1em transparent;
+}
+
+#accueil:hover, #services:hover, #blog:hover {
+  border-bottom: solid 0.1em #0070C0;
+}
+
+/* FIN NAVIGATION */
+
+
+
+/* |||||||||||||||||||||||||||||||||| FIN HEADBAR |||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+
+
+
+
+/*********************************** DEBUT PORTFOLIO ***********************************/
+
+
+
+body {
+  background-color: rgba(254, 209, 217,0.3);
+}
+
+
+
+/* DEBUT ACCROCHE CONTAINER*/
+h1{
+  margin: 2em 0em;
+}
+/* FIN ACCROCHE CONTAINER */
+
+
+
+/* DEBUT BANDEAU CONTAINER */
+#oeil {
+  width: 100%;
+  margin-top: 9em;
+}
+
+#oeil img {
+  display: block;
+  margin: auto;
+  width: 54em;
+  height: 24em;
+  border-radius: 6em;
+}
+/* FIN BANDEAU CONTAINER */
+
+
+
+h2 {
+  color: black;
+}
+
+article a {
+  text-decoration: none;
+  color: #0070C0;
+}
+
+
+
+/* DEBUT RENOVATION MEUBLES CONTAINER */
+#pmeubles {
+  margin-top: 12em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+#pmeubles img {
+  width: 36em;
+  height: 24em;
+  display: block;
+  border-radius: 3em;
+}
+
+#pmeubles article {
+  width: 33em;
+}
+/* DEBUT RENOVATION MEUBLES CONTAINER */
+
+
+
+/* DEBUT JARDINIERE CONTAINER */
+#pjardiniere {
+  margin: 9em 0em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+
+#pjardiniere img {
+  width: 36em;
+  height: 24em;
+  display: block;
+  border-radius: 3em;
+}
+
+#pjardiniere article {
+  width: 33em;
+}
+/* FIN JARDINIERE CONTAINER */
+
+
+
+
+
+
+
+
+
+/* ||||||||||||||||||||||||||||||||||||| FIN PORTFOLIO ||||||||||||||||||||||||||||||||||||| */
+
+

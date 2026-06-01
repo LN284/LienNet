@@ -1,0 +1,248 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+/************************************** DEBUT HEADBAR **************************************/
+
+
+
+/* DEBUT NAVIGATION */
+
+nav > #contact a{
+  color: #0070C0;
+}
+
+/* (ACCUEIL + SERVICES + PORTFOLIO + BLOG) HOVER */
+
+#accueil:hover, #services:hover, #portfolio:hover, #blog:hover {
+  border-bottom: solid 0.1em #0070C0;
+}
+
+/* FIN NAVIGATION */
+
+
+
+/* ||||||||||||||||||||||||||||||||||||| FIN HEADBAR ||||||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+
+/* ****************************** DEBUT PAGE CONTACT ****************************** */
+
+/* DEBUT ACCROCHE */
+
+h1 {
+  margin-top: 3em;
+}
+
+/* FIN ACCROCHE */
+
+
+
+
+
+
+/* DEBUT PAGE CONTACT CONTAINER */
+
+#pccontact {
+  margin: 3em 12em 12em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+/* DEBUT CONTACT CONTAINER */
+
+#ccontact {
+  width: 28em;
+  height: 28em;
+  color: white;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+#ccontact a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* DEBUT TITRE */
+
+#ccontact > h2 {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/* FIN TITRE */
+
+
+
+/* DEBUT MAIL */
+
+#cmail {
+  font-size: 1.2em;
+  padding: 0.6em 0em 0.6em 1em;
+}
+
+/* FIN MAIL */
+
+
+
+/* DEBUT TEL */
+
+#ctel {
+  font-size: 1.2em;
+  padding: 0.6em 0em 0em 1em;
+}
+
+/* FIN TEL */
+
+
+
+/* DEBUT HORAIRES */
+
+#choraires {
+  font-size: 1.2em;
+  padding-left: 1em;
+}
+
+/* FIN HORAIRES */
+
+
+
+
+
+
+
+/* DEBUT PLAN CONTAINER */
+
+#cplan img {
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+}
+
+/* FIN PLAN CONTAINER */
+
+
+
+
+
+
+/* DEBUT SOUS PLAN CONTAINER */
+
+#csousplan {
+  height: 9em;
+  margin: 0.1em 1em 0.3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* DEBUT ADRESSE CONTAINER */
+
+#ccontact #csousplan > address {
+  font-size: 0.72em;
+}
+
+/* FIN ADRESSE CONTAINER */
+
+
+
+/* DEBUT RESEAUX SOCIAUX CONTAINER */
+
+#crs {
+  width: 1em;
+  height: 3em;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FIN RESEAUX SOCIAUX CONTAINER */
+
+/* FIN SOUS PLAN CONTAINER */
+
+/* FIN CONTACT CONTAINER */
+
+
+
+
+
+
+/* DEBUT FORMULAIRE CONTAINER */
+
+form {
+  width: 28em;
+  height: 28em;
+  background-color: #0070C0;
+  color: white;
+}
+
+legend {
+  text-align: center;
+  padding: 0.9em 0em 0.1em;
+}
+
+input[type=text], 
+input[type=email] {
+  width: 25em;
+  height: 3em;
+  border: none;
+  border: solid 0.01em #0070C0;
+  border-radius: 0.24em;
+  padding: 0.1em 0.3em;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  margin: 0em 1.6em 1em;
+}
+
+input[type=email] {
+  margin: 0em 1.6em 2.6em;
+}
+
+label {
+  margin-left: 1.7em;
+  font-size: 1em;
+  font-style: italic;
+}
+
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 30em;
+  height: 8em;
+  resize: none;
+  margin: 0.3em 1.9em 0.9em;
+  border: none;
+  border: solid 0.01em #0070C0;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+}
+
+input[type=image] {
+  margin: 0.6em 0em 0em 28em;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* FIN FORMULAIRE CONTAINER */
+
+/* FIN PAGE CONTAINER */
+
+
+/* |||||||||||||||||||||||||||||||| FIN PAGE CONTACT |||||||||||||||||||||||||||||||| */

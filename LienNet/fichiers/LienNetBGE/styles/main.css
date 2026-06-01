@@ -1,0 +1,76 @@
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  color: black;
+}
+
+
+
+.ln{
+  color: #0070C0; 
+  font-family: Verdana Pro Black;
+}
+
+
+
+/************************************** DEBUT ANIMATION **************************************/
+
+/* Define the keyframes for the slide-in animation */
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the element */
+.slide-in-bottom {
+  animation: slideInFromBottom 1s ease-out forwards;
+}
+
+/* |||||||||||||||||||||||||||||||||| FIN ANIMATION |||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+
+
+/************************************** DEBUT TITRE **************************************/
+
+h1{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3em;
+}
+
+/* |||||||||||||||||||||||||||||||||| FIN TITRE |||||||||||||||||||||||||||||||||| */
+
+
+
+
+
+
+
+
+
+
+/************************************** DEBUT RESPONSIVE **************************************/
+/* FONT-SIZE EN VW (VIEWPORT WIDTH) */
+/* |||||||||||||||||||||||||||||||||| FIN RESPONSIVE |||||||||||||||||||||||||||||||||| */
+
+

@@ -1,0 +1,547 @@
+
+
+
+<!DOCTYPE html>
+
+  <html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LN FINAL2 HEADER</title>
+
+    <link 
+          
+      rel="icon" 
+      
+      type="image/x-icon" 
+      
+      href="../icones/favicon.png"
+          
+    >
+    
+    <link rel="stylesheet" href="../../styles/main.css">
+
+
+    <style>
+
+            
+
+
+      /* *********************************************************************************** */
+      /* ***************************** DEBUT EN-TÊTE CONTAINER ***************************** */
+      /* *********************************************************************************** */
+
+      #entete {
+
+      display: block;
+
+      width: 100%;
+      height: 8vw;
+
+      padding: 0vw 3vw;
+
+      background-color: white;
+
+      position: -webkit-sticky; /* Safari */ 
+      position: sticky;
+      top: 0;
+      z-index: 12;
+
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+
+      box-shadow: 0vw 0.09vw 0.6vw var(--grey);
+
+      /* border: solid 0.1vw var(--grey); */
+
+      }
+
+      /* /////////////////////////////////////////////////////////////////////////////////// */
+      /* ////////////////////////////// FIN EN-TÊTE CONTAINER ////////////////////////////// */
+      /* /////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+      /* ********************************************************************************** */
+      /* ***************************** DEBUT HEADER CONTAINER ***************************** */
+      /* ********************************************************************************** */
+
+      #entete header {
+
+      display: inline-block;
+
+      height: 3vw;
+      width: auto;
+
+      background-color: white;
+
+      /* padding: 1vw; */
+
+      /* border: solid 0.1vw red; */
+
+      }
+
+      #entete header a {
+
+      display: inline-block;
+
+      height: 3vw;
+      width: auto;
+
+      /* padding: 1vw; */
+
+      /* border: solid 0.2vw black; */
+
+      }
+
+      #entete header img {
+
+      display: inline-block;
+
+      height: 3vw;
+      width: auto;
+
+      /* padding: 1vw; */
+
+      /* border: solid 0.3vw yellow; */
+
+      }
+
+      /* ////////////////////////////////////////////////////////////////////////////////// */
+      /* ////////////////////////////// FIN HEADER CONTAINER ////////////////////////////// */
+      /* ////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+      /* ********************************************************************************** */
+      /* ****************************** DEBUT MENU CONTAINER ****************************** */
+      /* ********************************************************************************** */
+
+      #enteteMenu {
+
+      display: inline-block;
+
+      height: 8vw;
+      width: 82vw;
+
+      /* border: solid 0.1vw red; */
+
+      }
+
+      #enteteMenu ul {
+
+      display: inline-block;
+
+      height: 8vw;
+      width: auto;
+
+      margin: 0vw 12vw;
+
+      list-style-type: none;
+
+      overflow: hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+
+      /* padding: 0.6vw; */
+
+      /* border: solid 0.1vw black; */
+
+      }
+
+      #enteteMenu li {
+
+      display: inline-block;
+
+      width: auto;
+      height: 6vw;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+
+      /* padding: 2.4vw 0vw; */
+
+      border: solid 0.3vw transparent;
+
+      }
+
+      #enteteMenu a {
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1vw;
+      font-weight: bold;
+      color: black;
+
+      display: block;
+
+      width: auto;
+      height: auto;
+
+      padding: 0.6vw;
+
+      /* border: solid 0.1vw black; */
+
+      }
+
+      #enteteMenu a:hover {
+
+      color: var(--blue);
+
+      }
+
+      #enteteMenu .enteteActive a, 
+      #enteteMenu .enteteActive:hover a {
+
+      color: var(--green);
+
+      }
+
+      /* #enteteMenu li:hover {
+
+      border-top: solid 0.3vw var(--blue);
+
+      } */
+
+      #enteteMenu img {
+
+      height: 1.8vw;
+      width: auto;
+
+      }
+
+
+
+      /* ************************************************ */
+      /* ************ DEBUT LANGUES DROPDOWN ************ */
+      /* ************************************************ */
+
+      #enteteLanguesDropdown {
+
+      display: inline-block;
+
+      height: 1.8vw;
+      width: 3vw;
+
+      background-color: white;
+
+      display: flex;
+      flex-direction: row nowrap;
+      justify-content: center;
+      align-items: center;
+
+      /* margin-left: 6vw; */
+
+      /* border: solid 0.1vw black; */
+
+      }
+
+      #enteteLanguesDropdown img {
+
+      display: inline-block;
+
+      height: 1.8vw;
+      width: auto;
+
+      /* border: solid 0.1vw yellowgreen; */
+
+      }
+
+      #enteteLanguesContent {
+
+      width: auto;
+      height: auto;
+
+      background-color: white;
+
+      border: solid 0.1vw var(--green);
+
+      display: none;
+      position: absolute;
+      z-index: 1;
+
+      }
+
+      #enteteLanguesDropdown:hover #enteteLanguesContent {
+
+      display: inline-block;
+
+      margin-left: 1.8vw;
+
+      }
+
+      #enteteLanguesContent a {
+
+      display: block;
+
+      width: auto;
+      height: auto;
+
+      padding: 0.9vw;
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      font-size: 0.9vw;
+      color: black;
+
+      }
+
+      a#enteteLanguesContentEnglish {
+
+      border-bottom: solid 0.1vw var(--green);
+
+      }
+
+      #enteteLanguesContent a:hover {
+
+      font-weight: normal;
+      color: white;
+
+      background-color: var(--green);
+
+      }
+
+      /* //////////////////////////////////////////////// */
+      /* ///////////// FIN LANGUES DROPDOWN ///////////// */
+      /* //////////////////////////////////////////////// */
+
+
+
+      /* ////////////////////////////////////////////////////////////////////////////////// */
+      /* /////////////////////////////// FIN MENU CONTAINER /////////////////////////////// */
+      /* ////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+    </style>
+  
+  </head>
+
+
+  <body>
+  
+    <!-- ********************************************************************************* -->
+    <!-- ********************************* DEBUT EN-TÊTE ********************************* -->
+    <!-- ********************************************************************************* -->
+
+      <div id="entete">
+
+
+          
+        <!-- ****************************************************************** -->
+        <!-- *************************** DEBUT LOGO *************************** -->
+        <!-- ****************************************************************** -->
+
+          <header>
+
+            <a 
+            
+              href="index.html" 
+              
+              title="Accueil">
+
+
+            
+              <img 
+              
+                src="../../assets/icones/logoLN.png" 
+                
+                alt="LOGO DE L'ENTREPRISE LIEN NET"
+              >
+
+
+
+            </a>
+
+          </header>
+
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <!-- //////////////////////////// FIN LOGO //////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+
+        <!-- ****************************************************************** -->
+        <!-- *************************** DEBUT MENU *************************** -->
+        <!-- ****************************************************************** -->
+
+          <nav id="enteteMenu">
+
+            <ul>
+
+              <li class="enteteActive">
+                
+                <a 
+                
+                  href="index.html"
+                  
+                  title="Accueil">
+
+
+                  
+                  <img 
+                  
+                    src="../../assets/icones/homeGreen.png" 
+                    
+                    alt="HOME"
+                    
+                  >
+
+
+                
+                </a>
+              
+              </li>
+
+
+
+              <li>
+                
+                <a 
+                
+                  href="services.html"
+                  
+                  title="Services">
+                  
+                  Services
+
+                </a>
+              
+              </li>
+
+
+
+              <li>
+                
+                <a 
+                
+                  href="actualites.html"
+                  
+                  title="Actualités">
+                  
+                  Actualités
+
+                </a>
+              
+              </li>
+
+
+
+              <li>
+                
+                <a 
+                
+                  href="publications.html"
+                  
+                  title="Publications">
+                  
+                  Publications
+
+                </a>
+              
+              </li>
+
+
+
+              <li>
+                
+                <a 
+                
+                  href="contact.html"
+                  
+                  title="Contact">
+                  
+                  Contact
+
+                </a>
+              
+              </li>
+
+
+
+              <!-- **************************************************** -->
+              <!-- ************** DEBUT LANGUES DROPDOWN ************** -->
+              <!-- **************************************************** -->
+
+                <li id="enteteLanguesDropdown">
+                  
+
+
+                  <img 
+                  
+                    src="../../assets/icones/globeBlue.png" 
+                    
+                    alt="GLOBE LANGUES"
+                    
+                  >
+
+                  <div id="enteteLanguesContent">
+
+                    <a 
+                    
+                      href="english/enindex.html" 
+                      
+                      id="enteteLanguesContentEnglish"
+                      
+                      title="English">
+                        
+                      English
+                    
+                    </a>
+
+                    <a 
+                    
+                      href="español/esindex.html"
+                      
+                      title="Español">
+                      
+                      Español
+                    
+                    </a>
+
+                  </div>
+                
+                </li>
+
+              <!-- //////////////////////////////////////////////////// -->
+              <!-- /////////////// FIN LANGUES DROPDOWN /////////////// -->
+              <!-- //////////////////////////////////////////////////// -->
+
+            </ul>
+
+          </nav>
+
+        <!-- ////////////////////////////////////////////////////////////////// -->
+        <!-- //////////////////////////// FIN MENU //////////////////////////// -->
+        <!-- ////////////////////////////////////////////////////////////////// -->
+
+
+
+      </div>
+  
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////// FIN EN-TÊTE ////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+  </body>
+
+</html>
+
+

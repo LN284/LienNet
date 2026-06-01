@@ -1,0 +1,305 @@
+
+
+
+footer {
+
+  display: block;
+
+
+  border-top: solid 0.03vw var(--grey);
+
+}
+
+
+
+
+
+
+/* ************************************************** */
+/* ************** DEBUT GRID CONTAINER ************** */
+/* ************************************************** */
+
+#footerGrid {
+
+  display: grid;
+  justify-content: space-between;
+
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+
+  background-color: white;
+  padding: 3vw;
+
+  /* border: solid 0.1vw var(--grey); */
+
+}
+
+#footerGrid div {
+
+  color: black;
+  
+  background-color: white;
+
+  /* border: solid 0.1vw black; */
+
+}
+
+/* ////////////////////////////////////////////////// */
+/* /////////////// FIN GRID CONTAINER /////////////// */
+/* ////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* ************************************************** */
+/* ************** DEBUT LOGO CONTAINER ************** */
+/* ************************************************** */
+
+#footerLogo {
+
+  height: 6vw;
+  width: auto;
+
+  grid-row: 1 / span 2;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* border: solid 0.1vw red; */
+
+}
+
+#footerLogo a {
+
+  display: block;
+
+}
+
+#footerLogo img {
+
+  height: 3vw;
+  width: auto;
+
+  display: block;
+
+  /* border: solid 0.1vw yellowgreen; */
+
+}
+
+/* /////////////////////////////////////////////////// */
+/* //////////////// FIN LOGO CONTAINER /////////////// */
+/* /////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* ************************************************** */
+/* *************** DEBUT RS CONTAINER *************** */
+/* ************************************************** */
+
+#footerGridRS {
+
+  grid-column: 2 / span 2;
+
+  display: inline-block;
+
+  width: auto;
+  height: 6vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+
+  /* border: 0.3vw solid black; */
+
+}
+
+#footerRS {
+
+  width: 9vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
+
+  /* border: 0.3vw solid red; */
+
+}
+
+#footerFacebook:hover, 
+#footerLinkedin:hover {
+
+  color: var(--or);
+  
+}
+
+#footerRS a {
+
+  font-size: 1.9vw;
+  font-weight: bold;
+
+  display: block;
+
+  /* border: solid 0.3vw yellowgreen; */
+
+}
+
+
+
+/* ************************** */
+/* ** DEBUT XTWITTER HOVER ** */
+/* ************************** */
+
+#footerX {
+
+  position: relative;
+ 
+  height: 1.36vw;
+  width: auto;
+
+  margin: 0.3vw 1vw 0vw 0vw;
+
+}
+
+#footerX img {
+
+  position: absolute;
+
+  height: 1.36vw;
+  width: auto; 
+
+  /* transition: opacity 0.3s ease-in-out; */
+
+}
+
+#footerX img#footerXHover {
+
+  opacity: 0;
+
+}
+
+#footerX:hover img#footerXHover {
+
+  opacity: 1;
+
+}
+
+#footerX:hover img#footerXDefault {
+
+  opacity: 0;
+
+}
+
+/* ////////////////////////// */
+/* /// FIN XTWITTER HOVER /// */
+/* ////////////////////////// */
+
+
+
+/* ////////////////////////////////////////////////// */
+/* //////////////// FIN RS CONTAINER //////////////// */
+/* ////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* ************************************************** */
+/* ************** DEBUT LEGAL CONTAINER ************* */
+/* ************************************************** */
+
+#footerGridLegal {
+
+  grid-column: 2 / span 2;
+
+  display: inline-block;
+
+  width: auto;
+  height: 3vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+
+  /* border: 0.3vw solid yellowgreen; */
+
+}
+
+#footerLegal {
+
+  width: 26vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: end;
+  align-items: center;
+  justify-content: space-between;
+
+  /* border: 0.3vw solid red; */
+
+}
+
+#footerML:hover, 
+#footerCGV:hover, 
+#footerConf:hover {
+
+  color: var(--or);
+  
+}
+
+#footerGridLegal a {
+
+  font-size: 1.3vw;
+
+  display: block;
+
+}
+
+/* ////////////////////////////////////////////////// */
+/* /////////////// FIN LEGAL CONTAINER ////////////// */
+/* ////////////////////////////////////////////////// */
+
+
+
+
+
+
+/* ************************************************** */
+/* *********** DEBUT COPYRIGHT CONTAINER ************ */
+/* ************************************************** */
+
+#footerCopyright {
+
+  grid-column: 2 / span 2;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: end;
+
+  /* border: 0.3vw solid black; */
+
+}
+
+#footerCopyright p {
+
+  font-size: 0.7vw;
+
+}
+
+/* ////////////////////////////////////////////////// */
+/* ///////////// FIN COPYRIGHT CONTAINER //////////// */
+/* ////////////////////////////////////////////////// */
+
+

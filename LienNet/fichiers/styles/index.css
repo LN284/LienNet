@@ -1,0 +1,390 @@
+
+
+
+/* *********************************************************************************** */
+/* *********************************** DEBUT INDEX *********************************** */
+/* *********************************************************************************** */
+
+/* ********************************************************************** */
+  /* ************************* DEBUT INTRODUCTION ************************* */
+  /* ********************************************************************** */
+
+
+
+  #indexIntro {
+
+    display: grid;
+
+
+    grid-template-columns: 53% 44%;
+
+
+    grid-template-rows: auto;
+
+
+    height: auto;
+
+    width: auto;
+
+
+    background-color: white;
+
+
+    margin: 0vw 3vw 6vw;
+
+
+    justify-content: space-between;
+
+    align-items: start;
+
+
+    /* border: solid 0.3vw black; */
+
+  }
+
+
+
+  #indexIntroTexte {
+
+    display: block;
+
+    justify-content: space-between;
+
+    align-items: start;
+
+    align-content:center;
+
+
+    /* border: solid 0.3vw greenyellow; */
+
+  }
+
+
+
+  
+
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT ITEM 1 ******************* */
+  /* **************************************************** */
+
+    h2#indexIntroTexte1 { 
+
+      font-family: Verdana Pro Semibold, Geneva, Tahoma, sans-serif; 
+
+      font-size: 1.3vw;
+
+      color: var(--rouille);
+
+
+      text-align: left;
+
+      align-content: start;
+
+
+      padding-top: 16vw;
+
+
+      /* border: solid 0.3vw red; */
+
+    }
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN ITEM 1 /////////////////// */
+  /* /////////////////////////////////////////////////// */
+
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT ITEM 2 ******************* */
+  /* **************************************************** */
+
+    h1#indexIntroTexte2 {
+
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+      font-size: 3.6vw;
+
+      line-height: 5.4vw;
+
+
+      text-align: left;
+
+      align-content: start;
+
+
+      padding-top: 1.2vw;
+
+
+      /* border: solid 0.3vw black; */
+
+    }
+
+    h1#indexIntroTexte2 img {
+
+      height: 2.8vw;
+
+      width: auto;
+
+    }
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN ITEM 2 /////////////////// */
+  /* /////////////////////////////////////////////////// */
+
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT ITEM 3 ******************* */
+  /* **************************************************** */
+
+   #indexIntroTexte3 {
+
+    font-size: 1.6vw;
+
+
+    padding-top: 1.6vw;
+
+
+    /* border: solid 0.3vw red; */
+
+   }
+
+
+   #indexIntroTexte3 img {
+
+    height: 1.2vw;
+
+    width: auto;
+
+   }
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN ITEM 3 /////////////////// */
+  /* /////////////////////////////////////////////////// */
+
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT ITEM 4 ******************* */
+  /* **************************************************** */
+
+    #indexIntroTexte4 {
+
+      font-size: 1.1vw;
+
+      text-align: start;
+
+      padding-top: 2.4vw;
+
+      /* border: solid 0.3vw black; */
+
+    }
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN ITEM 4 /////////////////// */
+  /* /////////////////////////////////////////////////// */
+  
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT ITEM 5 ******************* */
+  /* **************************************************** */
+
+  #indexIntroTexteBoutons { 
+        
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-evenly;
+
+
+    /* padding-top: 6vw; */
+
+
+    height: auto;
+
+    width: auto;
+
+
+    /* border: solid 0.3vw red; */
+  
+  }
+
+
+
+  #indexIntroTexteBoutons a {
+
+    display: block;
+
+
+    font-size: 1.1vw;
+
+    font-weight: bold;
+
+
+    height: auto;
+
+    width: auto;
+
+
+    padding: 1vw 1.6vw;
+
+  }
+
+
+
+  #indexIntroTexteBoutons #indexIntroBoutonServices {
+
+    color: white;
+
+
+    background-color: var(--green);
+
+
+    border: solid 0.1vw var(--green);
+
+    border-radius: 0.3vw;
+
+
+    height: auto;
+
+    width: 12vw;
+
+
+    margin: auto;
+
+    margin-top: 6vw;
+
+  }
+
+
+
+  #indexIntroTexteBoutons #indexIntroBoutonServices:hover {
+
+    color: var(--green);
+
+
+    background-color: white;
+
+  }
+
+
+
+  #indexIntroTexteBoutons #indexIntroBoutonContact {
+
+    color: white;
+
+
+    background-color: var(--rouille);
+
+
+    border: solid 0.1vw var(--rouille);
+
+    border-radius: 0.3vw;
+
+
+    height: auto;
+
+    width: 9vw;
+
+
+    margin: auto;
+
+    margin-top: 6vw;
+
+  }
+
+
+
+  #indexIntroTexteBoutons #indexIntroBoutonContact:hover {
+
+    color: var(--rouille);
+    
+
+    background-color: white;
+
+  }
+
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN ITEM 5 /////////////////// */
+  /* /////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+  /* **************************************************** */
+  /* ******************* DEBUT IMAGES ******************* */
+  /* **************************************************** */
+
+    #indexIntroImage {
+
+      height: auto;
+
+      width: auto;
+
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      align-content:center;
+
+
+      /* border: solid 0.2vw lightslategray; */
+
+    }
+
+
+
+
+    #indexIntroImage img {
+
+      height: auto;
+
+      width: 40.6vw;
+
+      /* border: solid 0.3vw #AF8D11; */
+
+      /* box-shadow: 0.09vw 0.09vw 0.6vw var(--grey); */
+
+      /* border-radius: 6vw; */
+
+    }
+
+
+  /* /////////////////////////////////////////////////// */
+  /* //////////////////// FIN IMAGES /////////////////// */
+  /* /////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////// FIN INTRODUCTION ////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////// FIN INDEX //////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+

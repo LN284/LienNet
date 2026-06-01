@@ -1,0 +1,119 @@
+
+
+
+/* LARGEUR DE MON ECRAN 88.5EM */
+
+
+
+
+
+
+/* HEADBAR POSITION */
+#headbar{
+  position: fixed;
+  top: 0em;
+  left: 0em;
+  right: 0em;
+  max-width: 100%;
+  background-color: white;
+  box-shadow: 0em 0.1em 0.1em #d3d3d3;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+/* DEBUT HEADER CONTAINER */
+
+header{
+  background-color: #0070C0;
+}
+
+/* HEADER LOGO */
+header img {
+  width: 12em; 
+  height: auto;
+}
+
+/* FIN HEADER CONTAINER */
+
+
+
+
+
+
+/* DEBUT NAVIGATION CONTAINER */
+
+nav{
+  background-color: #f3f3f3;
+  width: 600em;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+nav > div {
+  text-align: center;
+}
+
+nav > div a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* DEBUT MENU CONTAINER */
+
+#menu {
+  background-color: #f3f3f3;
+  width: 33em;
+  height: auto;
+  margin-right: 1.2em ;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#accueil, #services, #portfolio, #blog {
+  padding-bottom: 0.1em;
+  margin-bottom: 0.6em;
+  border-bottom: solid 0.1em transparent;
+}
+
+/* FIN MENU CONTAINER */
+
+
+
+
+
+
+/* DEBUT CONTACT CONTAINER */
+
+#contact {
+  background-color: red;
+}
+
+
+#contact img {
+  width: 6.6em;
+  height: auto;
+}
+
+/* FIN CONTACT CONTAINER */
+
+/* FIN NAVIGATION */
+
+

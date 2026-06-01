@@ -1,0 +1,620 @@
+
+
+
+/* ********************************************************************************** */
+/* ********************************* DEBUT EN-TÊTE  ********************************* */
+/* ********************************************************************************** */
+
+
+
+  #entete {
+
+
+
+    display: grid;
+
+    grid-template-columns: auto auto auto;
+
+    flex-flow: row nowrap;
+
+    place-content: center space-between;
+
+    align-items: center;
+    
+
+
+    width: 100%;
+
+    height: 8vw;
+
+    padding: 0vw 3vw;
+
+
+
+    background-color: white;
+
+    box-shadow: 0vw 0.09vw 0.6vw var(--grey);
+
+
+
+    position: -webkit-sticky; /* Safari */ 
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 12;
+
+
+
+  }
+
+
+
+  /* ********************************************************************* */
+  /* *************************** DEBUT HEADER  *************************** */
+  /* ********************************************************************* */
+
+
+
+    #entete header {
+
+
+
+      grid-column: 1 / 2;
+
+
+
+      display: inline-block;
+
+
+
+      height: 3vw;
+
+      width: auto;
+
+
+
+      background-color: white;
+
+
+
+    }
+
+
+
+    #entete header a,
+    #entete header img {
+
+
+
+      display: inline-block;
+
+
+
+      height: 3vw;
+
+      width: auto;
+
+
+
+    }
+
+
+
+    
+
+  /* ////////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////// FIN HEADER ///////////////////////////// */
+  /* ////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+  /* ********************************************************************** */
+  /* ***************************** DEBUT MENU ***************************** */
+  /* ********************************************************************** */
+
+
+
+    #enteteMenu {
+
+
+
+      grid-column: 2 / 3;
+
+
+
+      display: flex;
+
+      flex-direction: row nowrap;
+
+      justify-content: center;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+
+
+      height: 3vw;
+
+      width: auto;
+
+
+
+
+    }
+
+
+
+    #enteteMenu ul {
+
+
+
+      display: flex;
+
+      justify-content: center ;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+
+
+      height: 3vw;
+
+      width: 36vw;
+
+
+
+      list-style-type: none;
+
+
+
+      overflow: hidden;
+
+
+      
+    }
+
+
+
+    #enteteMenu li {
+
+
+
+      display: inline-block;
+
+
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+
+
+      width: auto;
+
+      height: 3vw;
+
+
+
+    }
+
+
+
+    #enteteMenu a {
+
+
+
+      display: inline-block;
+
+
+      
+      font-family: Arial, Helvetica, sans-serif;
+
+      font-size: 1.1vw;
+
+      font-weight: bold;
+
+      color: black;
+
+
+
+      width: auto;
+
+      height: auto;
+
+
+
+      padding: 0.6vw;
+
+
+
+    }
+
+
+
+    #enteteMenu a:hover {
+
+
+
+      color: var(--or);
+
+
+
+    }
+
+
+
+    #enteteActive a, 
+
+    #enteteActive a:hover  {
+
+
+
+      color: var(--green);
+
+
+
+    }
+
+
+
+
+
+
+    /* ******************************************************* */
+    /* ******************* DEBUT HOME HOVER ****************** */
+    /* ******************************************************* */
+
+      #enteteHome a {
+
+        position: relative;
+
+      
+        height: 1.8vw;
+
+        width: auto;
+
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+
+        padding: 1.6vw;
+
+
+        /* border: solid 0.1vw black; */
+
+      }
+
+
+
+      #enteteHome img {
+
+        display: inline-block;
+
+
+        position: absolute;
+
+
+        height: 1.8vw;
+
+        width: auto; 
+
+
+        /* transition: opacity 0.3s ease-in-out; */
+
+
+        /* border: solid 0.1vw yellowgreen; */
+
+      }
+
+
+
+      #enteteHome img#enteteHomeHover {
+
+        opacity: 0;
+
+      }
+
+
+
+      #enteteHome:hover img#enteteHomeHover {
+
+        opacity: 1;
+
+      }
+
+
+
+      #enteteHome:hover img#enteteHomeDefault {
+
+        opacity: 0;
+
+      }
+
+    /* /////////////////////////////////////////////////////// */
+    /* /////////////////// FIN HOME HOVER //////////////////// */
+    /* /////////////////////////////////////////////////////// */
+
+
+
+
+
+
+    /* ******************************************************** */
+    /* ********************* DEBUT CONTACT ******************** */
+    /* ******************************************************** */
+
+
+
+
+      #enteteContact {
+
+
+
+        grid-column: 3 / 4;
+
+
+
+        display: flex;
+
+        flex-direction: row nowrap;
+  
+        justify-content: center;
+  
+        align-items: center;
+  
+        justify-content: center;
+  
+
+
+        height: auto;
+  
+        width: auto;
+
+
+        
+      }
+
+
+
+
+      #enteteContact a {
+
+
+
+        display: inline-block;
+
+
+
+        display: flex;
+
+        flex-direction: row nowrap;
+  
+        justify-content: center;
+  
+        align-items: center;
+  
+        justify-content: center;
+
+
+
+        height: 3vw;
+  
+        width: auto;
+  
+  
+  
+        padding: 0vw 1.2vw;
+
+
+
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-size: 1.1vw;
+  
+        font-weight: bold;
+  
+        color: white;
+
+
+
+        background-color: var(--rouille);
+
+
+
+        border: solid 0.1vw var(--rouille);
+
+        border-radius: 0.3vw;
+        
+
+      }
+
+
+
+      #enteteContact a:hover {
+
+
+
+        color: var(--rouille);
+
+
+
+        background-color: white;
+
+
+
+        border: solid 0.1vw var(--rouille);
+
+
+
+      }
+
+    /* /////////////////////////////////////////////////////// */
+    /* ///////////////////// FIN CONTACT ///////////////////// */
+    /* /////////////////////////////////////////////////////// */
+
+
+
+
+
+
+    /* ******************************************************* */
+    /* **************** DEBUT LANGUES DROPDOWN *************** */
+    /* ******************************************************* */
+
+      #enteteLanguesDropdown {
+
+        display: inline-block;
+
+
+        height: 1.8vw;
+
+        width: 3vw;
+
+
+        background-color: white;
+
+
+        display: flex;
+
+        flex-direction: row nowrap;
+
+        justify-content: center;
+
+        align-items: center;
+
+
+        /* margin-left: 6vw; */
+
+
+        /* border: solid 0.1vw black; */
+
+      }
+
+
+
+      #enteteLanguesDropdown img {
+
+        display: inline-block;
+
+
+        height: 1.8vw;
+
+        width: auto;
+
+
+        /* border: solid 0.1vw yellowgreen; */
+
+      }
+
+
+
+      #enteteLanguesContent {
+
+        width: auto;
+
+        height: auto;
+
+
+        background-color: white;
+
+
+        border: solid 0.1vw var(--blue);
+
+
+        display: none;
+
+        position: absolute;
+
+        z-index: 1;
+
+      }
+
+
+
+      #enteteLanguesDropdown:hover #enteteLanguesContent {
+
+        display: inline-block;
+
+        margin-left: 1.8vw;
+
+      }
+
+
+
+      #enteteLanguesContent a {
+
+        display: block;
+
+
+        width: auto;
+
+        height: auto;
+
+
+        padding: 0.9vw;
+
+
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-weight: lighter;
+
+        font-size: 0.9vw;
+
+        color: black;
+
+      }
+
+
+
+      a#enteteLanguesContentEnglish {
+
+        border-bottom: solid 0.1vw var(--blue);
+        
+      }
+
+
+
+      #enteteLanguesContent a:hover {
+
+        font-weight: normal;
+
+        color: white;
+
+
+        background-color: var(--blue);
+
+      }
+
+    /* ////////////////////////////////////////////////////// */
+    /* //////////////// FIN LANGUES DROPDOWN //////////////// */
+    /* ////////////////////////////////////////////////////// */
+
+
+
+  /* ///////////////////////////////////////////////////////////////////// */
+  /* ///////////////////////////// FIN MENU  ///////////////////////////// */
+  /* ///////////////////////////////////////////////////////////////////// */
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////// FIN EN-TÊTE  ////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+
